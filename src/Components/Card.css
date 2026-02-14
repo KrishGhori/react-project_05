@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(49, 63, 87);
+}
+
+div{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+input{
+    height: 25px;
+    margin-left: 70px;
+    
+}
+p{
+    height: 10px;
+    font-size: 25px;
+    gap:3px;
+}
