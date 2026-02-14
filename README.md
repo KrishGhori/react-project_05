@@ -25,22 +25,37 @@ A modern React application built using Vite. This project demonstrates component
 - ESLint integration for clean code  
 
 ---
+##How It Works
+
+-App.jsx stores the state using useState.
+-The state and setter function are passed to Card components as props.
+-Both Card components share the same state.
+-Updating input in one card updates both cards.
+
+---
 ```
 ##  Project Structure
 
 react-project-five/
 │
-├── public/
 ├── src/
 │   ├── Components/
+│   │   ├── Card.jsx
+│   │   └── Card.css
+│   │
 │   ├── App.jsx
+│   ├── App.css
 │   └── main.jsx
 │
-├── index.html
+├── public/
 ├── package.json
-├── vite.config.js
 └── README.md
 
+```
+
+Run the project:
+```
+npm run dev
 ```
 ##  Author
 
