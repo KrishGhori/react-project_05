@@ -27,10 +27,10 @@ A modern React application built using Vite. This project demonstrates component
 ---
 ## How It Works
 
--App.jsx stores the state using useState.
--The state and setter function are passed to Card components as props.
--Both Card components share the same state.
--Updating input in one card updates both cards.
+- App.jsx stores the state using useState.
+- The state and setter function are passed to Card components as props.
+- Both Card components share the same state.
+- Updating input in one card updates both cards.
 
 ---
 
