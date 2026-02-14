@@ -1,20 +1,52 @@
-<<<<<<< HEAD
-# React + Vite
+# React Project five
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built using Vite. This project demonstrates component-based architecture, state management, and clean project structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tech Stack
 
-## React Compiler
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- ESLint
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-project_05
->>>>>>> e3366741c651d1a7dab1e72b1f50d34eb9051061
+- Built with React and Vite  
+- Fast development server with Hot Module Replacement  
+- Functional components using JSX  
+- State management using useState  
+- State lifting between components  
+- Reusable component structure  
+- Organized folder architecture  
+- ESLint integration for clean code  
+
+---
+
+## 📂 Project Structure
+
+react-project-five/
+│
+├── public/
+├── src/
+│   ├── Components/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+---
+
+---
+
+##  Author
+
+Krish Ghori
+
+
