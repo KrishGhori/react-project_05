@@ -3,14 +3,15 @@ import Card from './Components/Card'
 import './App.css'
 
 function App() {
- 
-  const [name,setname] = useState('')
+  const [name, setname] = useState('')
+
   return (
-    <div>
-      <Card tittle="Card1" name={name} setname = {setname}></Card>
-      <Card tittle="Card2" name={name} setname = {setname}></Card>
+    <div className="app-container">
+      <Card name={name} setname={setname} />
+      <Card name={name} setname={setname} />
     </div>
   )
 }
+
 
 export default App
