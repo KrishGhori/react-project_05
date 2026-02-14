@@ -13,7 +13,7 @@ A modern React application built using Vite. This project demonstrates component
 - ESLint
 
 
-## 🚀 Features
+##  Features
 
 - Built with React and Vite  
 - Fast development server with Hot Module Replacement  
@@ -25,8 +25,8 @@ A modern React application built using Vite. This project demonstrates component
 - ESLint integration for clean code  
 
 ---
-
-## 📂 Project Structure
+```
+##  Project Structure
 
 react-project-five/
 │
@@ -41,10 +41,7 @@ react-project-five/
 ├── vite.config.js
 └── README.md
 
----
-
----
-
+```
 ##  Author
 
 Krish Ghori
